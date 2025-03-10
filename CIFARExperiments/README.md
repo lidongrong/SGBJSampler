@@ -16,3 +16,12 @@ Experiments on proposed method VS existing methods can be replicated by above sc
 ## 25% of the training process
 ![avatar](images/CIFAR_64.png)
 
+## 50% of the training process
+![avatar](images/CIFAR_128.png)
+
+## 75% of the training process
+![avatar](images/CIFAR_192.png)
+
+## 100% of the training process
+![avatar](images/CIFAR_249.png)
+
