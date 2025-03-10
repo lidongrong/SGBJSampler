@@ -9,3 +9,10 @@ This folder contains scripts that replicate the CIFAR-10 experiments.
 **optimizers.py** contains the samplers. Don't modify otherwise may lead to unexpected errors.
 
 **schedulers.py** contains step size schedulers.
+
+# Replication
+Experiments on proposed method VS existing methods can be replicated by above scripts. Metrics used to evaluate is the posterior prediction acc among them. Results see below.
+
+## 25% of the training process
+![avatar](images/CIFAR_64.png)
+
