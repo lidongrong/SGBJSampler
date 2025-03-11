@@ -4,7 +4,7 @@
 
 This repository provides the implementation of some of the sampler (optimizers) proposed in my academic research. Sampler is implemented in pure pytorch, which can directly be plugged-in to posterior sampling on complicated models such as Bayesian neural network (BNN).
 
-No redundant parameter tuning required, just plug it in like you are using SGD or the Adam optimizer.
+**No redundant parameter tuning required, just plug it in like you are using SGD or the Adam optimizer. Specify the lr and schedulers, then let the model run!**
 
 ## Experiments
 The experiments of the proposed sampler have been implemented on various tasks such as simple Gaussian / T / multi-modal distributions, image classification on MNIST and CIFAR-10 datasets. Results suggest it has a more stable performance under step size tuning when compared to other popular samplers.
